@@ -1,36 +1,37 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Homepage
+description: Bizarre Binary is your trusted companion for exploring the vast expanse of space.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  title: Bizarre Binary Docs
+  tagline: Welcome to Bizarre Binary, your trusted companion for exploring the vast expanse of space. This documentation site is dedicated to helping you master the art of space exploration.
+#   image:
+#     alt: Bizarre Binary Logo
+#     file: ../../assets/Fav-icon.ico
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Getting Started
+      link: /getting-started/introduction-to-space-exploration/
       icon: right-arrow
     - text: Read the Starlight docs
       link: https://starlight.astro.build
       icon: external
       variant: minimal
 ---
-
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 ## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+    <Card title="Launch into Orbit" icon="rocket">
+        Learn the basics of spacecraft operations → [Introduction to Space Exploration](/getting-started/introduction-to-space-exploration/)
+    </Card>
+    <Card title="Chart Your Course" icon="open-book">
+        Plot your journey through the galaxy with our comprehensive guide → [Plotting a Course Through Space](/cosmic-navigation/plotting-course-through-space/)
+    </Card>
+    <Card title="Setting Up Your Spacecraft" icon="setting">
+        Get your spacecraft ready for launch → [Setting Up Your Spacecraft](/getting-started/setting-up-your-spacecraft/)
+    </Card>
+    <Card title="Master Gravity and Orbit" icon="star">
+        Understand the forces that shape your journey → [Dealing with Gravity and Orbit](/cosmic-navigation/dealing-with-gravity-and-orbit/)
+    </Card>
 </CardGrid>
