@@ -5,9 +5,9 @@ template: splash
 hero:
   title: Bizarre Binary Docs
   tagline: Welcome to Bizarre Binary, your trusted companion for exploring the vast expanse of space. This documentation site is dedicated to helping you master the art of space exploration.
-#   image:
-#     alt: Bizarre Binary Logo
-#     file: ../../assets/Fav-icon.ico
+  image:
+    alt: Bizarre Binary Logo
+    file: /Fav-icon.ico
   actions:
     - text: Getting Started
       link: /getting-started/introduction-to-space-exploration/
@@ -18,6 +18,8 @@ hero:
       variant: minimal
 ---
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Image } from 'astro:assets';
+import houstonImage from '../../assets/houston.webp';
 
 ## Next steps
 
