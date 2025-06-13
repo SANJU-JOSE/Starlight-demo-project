@@ -10,6 +10,7 @@ export default defineConfig({
       plugins: [
         starlightVersions({
           versions: [ 
+            {slug:"3.0"},
             {slug : '2.5'},
             {
               slug: '2.0',

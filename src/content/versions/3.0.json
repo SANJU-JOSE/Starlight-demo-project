@@ -1,0 +1,31 @@
+{
+  "sidebar": [
+    {
+      "label": "Getting Started",
+      "autogenerate": {
+        "directory": "getting-started"
+      }
+    },
+    {
+      "label": "Cosmic Navigation",
+      "items": [
+        {
+          "slug": "cosmic-navigation/reading-star-charts-and-maps"
+        },
+        {
+          "label": "Plotting a Course Through Space",
+          "slug": "cosmic-navigation/plotting-course-through-space"
+        },
+        "cosmic-navigation/dealing-with-gravity-and-orbit"
+      ]
+    },
+    {
+      "label": "Spaceships and Rockets",
+      "link": "https://www.nasa.gov/humans-in-space/spaceships-and-rockets/"
+    },
+    {
+      "label": "Space Movie",
+      "link": "https://en.wikipedia.org/wiki/Interstellar_(film)"
+    }
+  ]
+}
