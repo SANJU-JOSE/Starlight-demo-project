@@ -9,9 +9,12 @@ export default defineConfig({
     starlight({
       plugins: [
         starlightVersions({
-          versions: [ {
+          versions: [ 
+            {slug : '2.5'},
+            {
               slug: '2.0',
-            },{ slug: '1.0' }],
+            },{ slug: '1.0' }
+          ],
         }),
       ],
      
