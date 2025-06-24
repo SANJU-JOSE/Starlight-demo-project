@@ -1,0 +1,42 @@
+---
+title: Page d'accueil
+description: Bizarre Binary est votre compagnon de confiance pour explorer
+  l'immensité de l'espace.
+template: splash
+hero:
+  title: Documentation Bizarre Binary
+  tagline: Bienvenue sur Bizarre Binary, votre compagnon de confiance pour
+    explorer l'immensité de l'espace. Ce site de documentation est dédié à vous
+    aider à maîtriser l'art de l'exploration spatiale.
+  actions:
+    - text: Commencer
+      link: /4.0/fr/2.0/getting-started/introduction-to-space-exploration/
+      icon: right-arrow
+    - text: Lire la documentation Starlight
+      link: https://starlight.astro.build
+      icon: external
+      variant: minimal
+slug: 4.0/fr/2.0
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Prochaines étapes
+
+<CardGrid stagger>
+  <Card title="Lancez-vous en orbite" icon="rocket">
+    Apprenez les bases des opérations spatiales → [Introduction à l'exploration spatiale](/4.0/2.0/fr/getting-started/introduction-to-space-exploration/)
+  </Card>
+
+  <Card title="Tracez votre route" icon="open-book">
+    Planifiez votre voyage à travers la galaxie avec notre guide complet → [Tracer une trajectoire dans l'espace](/4.0/2.0/fr/cosmic-navigation/plotting-course-through-space/)
+  </Card>
+
+  <Card title="Préparer votre vaisseau spatial" icon="setting">
+    Préparez votre vaisseau pour le lancement → [Préparer votre vaisseau spatial](/4.0/2.0/fr/getting-started/setting-up-your-spacecraft/)
+  </Card>
+
+  <Card title="Maîtriser la gravité et l'orbite" icon="star">
+    Comprenez les forces qui façonnent votre voyage → [Gérer la gravité et l'orbite](/4.0/2.0/fr/cosmic-navigation/dealing-with-gravity-and-orbit/)
+  </Card>
+</CardGrid>

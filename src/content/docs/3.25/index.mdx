@@ -1,0 +1,47 @@
+---
+title: Homepage
+description: Bizarre Binary is your trusted companion for exploring the vast
+  expanse of space.
+template: splash
+hero:
+  title: Bizarre Binary Docs
+  tagline: Welcome to Bizarre Binary, your trusted companion for exploring the
+    vast expanse of space. This documentation site is dedicated to helping you
+    master the art of space exploration.
+  image:
+    alt: Bizarre Binary Logo
+    file: /Fav-icon.ico
+  actions:
+    - text: Getting Started
+      link: /3.25/getting-started/introduction-to-space-exploration/
+      icon: right-arrow
+    - text: Read the Starlight docs
+      link: https://starlight.astro.build
+      icon: external
+      variant: minimal
+slug: "3.25"
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Image } from 'astro:assets';
+import houstonImage from '../../../assets/3.25/houston.webp';
+
+## Next steps
+
+<CardGrid stagger>
+  <Card title="Launch into Orbit" icon="rocket">
+    Learn the basics of spacecraft operations → [Introduction to Space Exploration](/3.25/getting-started/introduction-to-space-exploration/)
+  </Card>
+
+  <Card title="Chart Your Course" icon="open-book">
+    Plot your journey through the galaxy with our comprehensive guide → [Plotting a Course Through Space](/3.25/cosmic-navigation/plotting-course-through-space/)
+  </Card>
+
+  <Card title="Setting Up Your Spacecraft" icon="setting">
+    Get your spacecraft ready for launch → [Setting Up Your Spacecraft](/3.25/getting-started/setting-up-your-spacecraft/)
+  </Card>
+
+  <Card title="Master Gravity and Orbit" icon="star">
+    Understand the forces that shape your journey → [Dealing with Gravity and Orbit](/3.25/cosmic-navigation/dealing-with-gravity-and-orbit/)
+  </Card>
+</CardGrid>
